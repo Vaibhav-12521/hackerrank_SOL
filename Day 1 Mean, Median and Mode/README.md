@@ -104,7 +104,9 @@ We find the number of occurrences of all the elements in the array:
 
 Every number occurs once, making `1` the maximum number of occurrences for any number in `X`. Because we have multiple values to choose from, we want to select the smallest one, `4978`, and print it on a new line.
 
-## Solution (JavaScript)
+## Solutions
+
+### JavaScript (Node.js)
 
 ```javascript
 function processData(input) {
@@ -157,6 +159,126 @@ process.stdin.on("data", function (input) {
 process.stdin.on("end", function () {
     processData(_input);
 });
+```
+
+### Python 3
+
+```python
+from collections import Counter
+
+n = int(input())
+arr = list(map(int, input().split()))
+
+# Mean
+mean = sum(arr) / n
+
+# Median
+arr.sort()
+if n % 2 == 0:
+    median = (arr[n // 2 - 1] + arr[n // 2]) / 2
+else:
+    median = arr[n // 2]
+
+# Mode: highest frequency, smallest value on a tie
+freq = Counter(arr)
+max_freq = max(freq.values())
+mode = min(num for num, count in freq.items() if count == max_freq)
+
+print(round(mean, 1))
+print(round(median, 1))
+print(mode)
+```
+
+### Java
+
+```java
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+        long sum = 0;
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+            sum += arr[i];
+        }
+
+        // Mean
+        double mean = (double) sum / n;
+
+        // Median
+        Arrays.sort(arr);
+        double median;
+        if (n % 2 == 0) {
+            median = (arr[n / 2 - 1] + arr[n / 2]) / 2.0;
+        } else {
+            median = arr[n / 2];
+        }
+
+        // Mode: highest frequency, smallest value on a tie
+        Map<Integer, Integer> freq = new HashMap<>();
+        int maxFreq = 0, mode = Integer.MAX_VALUE;
+        for (int num : arr) {
+            int count = freq.merge(num, 1, Integer::sum);
+            if (count > maxFreq || (count == maxFreq && num < mode)) {
+                maxFreq = count;
+                mode = num;
+            }
+        }
+
+        System.out.printf("%.1f%n", mean);
+        System.out.printf("%.1f%n", median);
+        System.out.println(mode);
+    }
+}
+```
+
+### C++
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+    vector<int> arr(n);
+    long long sum = 0;
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
+        sum += arr[i];
+    }
+
+    // Mean
+    double mean = (double) sum / n;
+
+    // Median
+    sort(arr.begin(), arr.end());
+    double median;
+    if (n % 2 == 0) {
+        median = (arr[n / 2 - 1] + arr[n / 2]) / 2.0;
+    } else {
+        median = arr[n / 2];
+    }
+
+    // Mode: highest frequency, smallest value on a tie
+    map<int, int> freq;
+    int maxFreq = 0, mode = INT_MAX;
+    for (int num : arr) {
+        int count = ++freq[num];
+        if (count > maxFreq || (count == maxFreq && num < mode)) {
+            maxFreq = count;
+            mode = num;
+        }
+    }
+
+    cout << fixed << setprecision(1) << mean << "\n";
+    cout << fixed << setprecision(1) << median << "\n";
+    cout << mode << "\n";
+    return 0;
+}
 ```
 
 ### How the Solution Works

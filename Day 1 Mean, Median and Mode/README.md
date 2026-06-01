@@ -4,7 +4,7 @@
 
 ### In this challenge, we practice calculating the mean, median, and mode.
 
-
+ 
  
 ## Task
 

@@ -1,8 +1,8 @@
 # Day 1: Mean, Median, and Mode
 
-## Objective
+## Objective  ### In this challenge, we practice calculating the mean, median, and mode.
 
-In this challenge, we practice calculating the mean, median, and mode.
+
 
 ## Task
 

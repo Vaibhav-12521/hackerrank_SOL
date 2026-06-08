@@ -7,10 +7,10 @@ problem statement, an explanation, and the solution code.
 
 ## Progress
 
-**Solved: 1 / 27**
+**Solved: 3 / 27**
 
 ```
-[█░░░░░░░░░░░░░░░░░░░░░░░░░░] 4%
+[███░░░░░░░░░░░░░░░░░░░░░░░░] 11%
 ```
 
 ## Problem Index
@@ -19,8 +19,8 @@ problem statement, an explanation, and the solution code.
 |---|-----|-----------|:------:|----------|
 | 1 | 0 | Mean, Median, and Mode | ✅ | [folder](./Day%201%20Mean%2C%20Median%20and%20Mode/) |
 | 2 | 0 | Weighted Mean | ⬜ | — |
-| 3 | 1 | Quartiles | ⬜ | — |
-| 4 | 1 | Interquartile Range | ⬜ | — |
+| 3 | 1 | Quartiles | ✅ | [folder](./Day%202/) |
+| 4 | 1 | Interquartile Range | ✅ | [folder](./Day%202%20Quartiles/) |
 | 5 | 1 | Standard Deviation | ⬜ | — |
 | 6 | 2 | Basic Probability | ⬜ | — |
 | 7 | 2 | More Dice | ⬜ | — |

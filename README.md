@@ -7,10 +7,10 @@ problem statement, an explanation, and the solution code.
 
 ## Progress
 
-**Solved: 3 / 27**
+**Solved: 4 / 27**
 
 ```
-[███░░░░░░░░░░░░░░░░░░░░░░░░] 11%
+[████░░░░░░░░░░░░░░░░░░░░░░░] 15%
 ```
 
 ## Problem Index
@@ -21,7 +21,7 @@ problem statement, an explanation, and the solution code.
 | 2 | 0 | Weighted Mean | ⬜ | — |
 | 3 | 1 | Quartiles | ✅ | [folder](./Day%202/) |
 | 4 | 1 | Interquartile Range | ✅ | [folder](./Day%202%20Quartiles/) |
-| 5 | 1 | Standard Deviation | ⬜ | — |
+| 5 | 1 | Standard Deviation | ✅ | [folder](./Day%202%20Quartiles/) |
 | 6 | 2 | Basic Probability | ⬜ | — |
 | 7 | 2 | More Dice | ⬜ | — |
 | 8 | 2 | Compound Event Probability | ⬜ | — |

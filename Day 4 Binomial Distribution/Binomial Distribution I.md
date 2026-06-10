@@ -1,5 +1,5 @@
 # Day 4: Binomial Distribution I
- 
+  
 ## Objective
 
 In this challenge, we learn about binomial distributions.

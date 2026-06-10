@@ -2,7 +2,7 @@
    
 My solutions to the [**10 Days of Statistics**](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics) track on HackerRank.  
    
-Each solved problem lives in its own folder with a `README.md` containing the
+Each solved problem lives in its own folder with a `README.md` containing the 
 problem statement, an explanation, and the solution code.  
     
 ## Progress

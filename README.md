@@ -12,7 +12,7 @@ problem statement, an explanation, and the solution code.
 ```
 [█████░░░░░░░░░░░░░░░░░░░░░░] 19%
 ``` 
-
+ 
 ## Problem Index
 
 | # | Day | Challenge | Status | Solution |

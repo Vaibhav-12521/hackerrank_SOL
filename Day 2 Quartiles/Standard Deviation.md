@@ -10,7 +10,6 @@ Given an array, `arr`, of `n` integers, calculate and print the standard deviati
 
 ## Example
 
-
 ```
 arr = [2, 5, 2, 7, 4]
 ```

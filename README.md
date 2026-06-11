@@ -10,13 +10,8 @@ problem statement, an explanation, and the solution code.
 **Solved: 6 / 27**
 
 ```
-<<<<<<< HEAD
 [██████░░░░░░░░░░░░░░░░░░░░░] 22%
-``` 
-=======
-[█████░░░░░░░░░░░░░░░░░░░░░░] 19%
-```  
->>>>>>> 4a4b02950d94218b01a3753e42eb6aa1f8b3217f
+```
  
 ## Problem Index
 

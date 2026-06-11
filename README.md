@@ -1,17 +1,22 @@
 # HackerRank — 10 Days of Statistics
    
 My solutions to the [**10 Days of Statistics**](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics) track on HackerRank.  
- 
-Each solved problem lives in its own folder with a `README.md` containing the
-problem statement, an explanation, and the solution code.
-
+   
+Each solved problem lives in its own folder with a `README.md` containing the 
+problem statement, an explanation, and the solution code.  
+    
 ## Progress
 
 **Solved: 6 / 27**
 
 ```
+<<<<<<< HEAD
 [██████░░░░░░░░░░░░░░░░░░░░░] 22%
 ``` 
+=======
+[█████░░░░░░░░░░░░░░░░░░░░░░] 19%
+```  
+>>>>>>> 4a4b02950d94218b01a3753e42eb6aa1f8b3217f
  
 ## Problem Index
 

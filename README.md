@@ -7,10 +7,10 @@ problem statement, an explanation, and the solution code.
 
 ## Progress
 
-**Solved: 5 / 27**
+**Solved: 6 / 27**
 
 ```
-[█████░░░░░░░░░░░░░░░░░░░░░░] 19%
+[██████░░░░░░░░░░░░░░░░░░░░░] 22%
 ``` 
  
 ## Problem Index
@@ -29,7 +29,7 @@ problem statement, an explanation, and the solution code.
 | 10 | 3 | Cards of the Same Suit | ⬜ | — |
 | 11 | 3 | Drawing Marbles | ⬜ | — |
 | 12 | 4 | Binomial Distribution I | ✅ | [folder](./Day%204%20Binomial%20Distribution/) |
-| 13 | 4 | Binomial Distribution II | ⬜ | — |
+| 13 | 4 | Binomial Distribution II | ✅ | [folder](./Day%204%20Binomial%20Distribution/) |
 | 14 | 4 | Geometric Distribution I | ⬜ | — |
 | 15 | 4 | Geometric Distribution II | ⬜ | — |
 | 16 | 5 | Poisson Distribution I | ⬜ | — |

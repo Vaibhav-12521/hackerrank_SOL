@@ -15,7 +15,7 @@ Given an array, `X`, of `N` integers, calculate and print the respective **mean*
 ```
 N = 6
 X = [1, 2, 3, 4, 5, 5]
-```
+``` 
 
 - The mean is `20 / 6 = 3.3`.
 - The median is `(3 + 4) / 2 = 3.5`.

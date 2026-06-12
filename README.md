@@ -7,10 +7,10 @@ problem statement, an explanation, and the solution code.
     
 ## Progress
 
-**Solved: 6 / 27**
+**Solved: 7 / 27**
 
 ```
-[██████░░░░░░░░░░░░░░░░░░░░░] 22%
+[███████░░░░░░░░░░░░░░░░░░░░] 26%
 ```
  
 ## Problem Index
@@ -30,7 +30,7 @@ problem statement, an explanation, and the solution code.
 | 11 | 3 | Drawing Marbles | ⬜ | — |
 | 12 | 4 | Binomial Distribution I | ✅ | [folder](./Day%204%20Binomial%20Distribution/) |
 | 13 | 4 | Binomial Distribution II | ✅ | [folder](./Day%204%20Binomial%20Distribution/) |
-| 14 | 4 | Geometric Distribution I | ⬜ | — |
+| 14 | 4 | Geometric Distribution I | ✅ | [folder](./Day%204%20Binomial%20Distribution/) |
 | 15 | 4 | Geometric Distribution II | ⬜ | — |
 | 16 | 5 | Poisson Distribution I | ⬜ | — |
 | 17 | 5 | Poisson Distribution II | ⬜ | — |

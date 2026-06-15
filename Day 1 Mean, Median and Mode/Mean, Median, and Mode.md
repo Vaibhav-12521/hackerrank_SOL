@@ -2,10 +2,10 @@
 
 ## Objective  
 
-### In this challenge, we practice calculating the mean, median, and mode.
+### In this challenge, we practice calculating the mean, median, and mode. 
  
-## Task  
-
+## Task    
+ 
 Given an array, `X`, of `N` integers, calculate and print the respective **mean**, **median**, and **mode** on separate lines. If your array contains more than one modal value, choose the numerically smallest one.
  
 **Note:** Other than the modal value (which will always be an integer), your answers should be in decimal form, rounded to a scale of 1 decimal place (i.e., `12.3`, `7.0` format).
@@ -15,7 +15,7 @@ Given an array, `X`, of `N` integers, calculate and print the respective **mean*
 ```
 N = 6
 X = [1, 2, 3, 4, 5, 5]
-```
+``` 
 
 - The mean is `20 / 6 = 3.3`.
 - The median is `(3 + 4) / 2 = 3.5`.

@@ -7,10 +7,10 @@ problem statement, an explanation, and the solution code.
     
 ## Progress
 
-**Solved: 7 / 27**
+**Solved: 8 / 27**
 
 ```
-[███████░░░░░░░░░░░░░░░░░░░░] 26%
+[████████░░░░░░░░░░░░░░░░░░░] 30%
 ```
  
 ## Problem Index
@@ -31,7 +31,7 @@ problem statement, an explanation, and the solution code.
 | 12 | 4 | Binomial Distribution I | ✅ | [folder](./Day%204%20Binomial%20Distribution/) |
 | 13 | 4 | Binomial Distribution II | ✅ | [folder](./Day%204%20Binomial%20Distribution/) |
 | 14 | 4 | Geometric Distribution I | ✅ | [folder](./Day%204%20Binomial%20Distribution/) |
-| 15 | 4 | Geometric Distribution II | ⬜ | — |
+| 15 | 4 | Geometric Distribution II | ✅ | [folder](./Day%204%20Binomial%20Distribution/) |
 | 16 | 5 | Poisson Distribution I | ⬜ | — |
 | 17 | 5 | Poisson Distribution II | ⬜ | — |
 | 18 | 5 | Normal Distribution I | ⬜ | — |

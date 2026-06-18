@@ -140,7 +140,7 @@ public class Solution {
 
 ```cpp
 #include <bits/stdc++.h>
-using namespace std;
+using namespace std; 
 
 int main() {
     double meanA, meanB;

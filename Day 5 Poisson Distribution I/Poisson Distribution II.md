@@ -22,7 +22,7 @@ A single line comprised of `2` space-separated values denoting the respective me
 ```
 
 If you do not wish to read this information from stdin, you can hard-code it into your program.
-
+ 
 ## Output Format
 
 There are two lines of output. Your answers must be rounded to a scale of 3 decimal places (i.e., `1.234` format):

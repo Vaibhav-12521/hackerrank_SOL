@@ -7,10 +7,10 @@ problem statement, an explanation, and the solution code.
     
 ## Progress
 
-**Solved: 10 / 27**
+**Solved: 11 / 27**
 
 ```
-[██████████░░░░░░░░░░░░░░░░░] 37%
+[███████████░░░░░░░░░░░░░░░░] 41%
 ```
  
 ## Problem Index
@@ -34,7 +34,7 @@ problem statement, an explanation, and the solution code.
 | 15 | 4 | Geometric Distribution II | ✅ | [folder](./Day%204%20Binomial%20Distribution/) |
 | 16 | 5 | Poisson Distribution I | ✅ | [folder](./Day%205%20Poisson%20Distribution%20I/) |
 | 17 | 5 | Poisson Distribution II | ✅ | [folder](./Day%205%20Poisson%20Distribution%20I/) |
-| 18 | 5 | Normal Distribution I | ⬜ | — |
+| 18 | 5 | Normal Distribution I | ✅ | [folder](./Day%205%20Poisson%20Distribution%20I/) |
 | 19 | 5 | Normal Distribution II | ⬜ | — |
 | 20 | 6 | The Central Limit Theorem I | ⬜ | — |
 | 21 | 6 | The Central Limit Theorem II | ⬜ | — |

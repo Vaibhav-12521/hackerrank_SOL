@@ -4,7 +4,7 @@
 
 In this challenge, we go further with Poisson distributions. We recommend reviewing the previous challenge's Tutorial before attempting this problem.
 
-## Task
+## Task 
 
 The manager of a industrial plant is planning to buy a machine of either type `A` or type `B`. For each day's operation:
 

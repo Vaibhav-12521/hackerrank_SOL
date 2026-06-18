@@ -1,5 +1,5 @@
 # Day 5: Normal Distribution I
- 
+  
 ## Objective
 
 In this challenge, we learn about normal distributions.

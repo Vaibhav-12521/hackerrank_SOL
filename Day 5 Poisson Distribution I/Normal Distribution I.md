@@ -4,7 +4,7 @@
 
 In this challenge, we learn about normal distributions.
   
-## Task
+## Task 
 
 In a certain plant, the time taken to assemble a car is a random variable, `X`, having a normal distribution with a mean of `20` hours and a standard deviation of `2` hours. What is the probability that a car can be assembled at this plant in: 
 

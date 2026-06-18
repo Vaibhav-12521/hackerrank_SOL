@@ -15,7 +15,7 @@ The first line contains `X`'s mean. The second line contains the value we want t
 ```
 2.5
 5
-```
+``` 
 
 If you do not wish to read this information from stdin, you can hard-code it into your program.
 

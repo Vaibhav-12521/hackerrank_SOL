@@ -17,7 +17,7 @@ Assume that the repairs take a negligible amount of time and that the machines a
 
 A single line comprised of `2` space-separated values denoting the respective means for `A` and `B`:
 
-```
+``` 
 0.88 1.55
 ```
 

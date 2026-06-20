@@ -8,7 +8,7 @@ problem statement, an explanation, and the solution code.
 ## Progress
 
 **Solved: 12 / 27**
-
+ 
 ```
 [████████████░░░░░░░░░░░░░░░] 44%
 ```

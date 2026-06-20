@@ -4,7 +4,7 @@
 
 In this challenge, we go further with Poisson distributions. We recommend reviewing the previous challenge's Tutorial before attempting this problem.
 
-## Task
+## Task  
 
 The manager of a industrial plant is planning to buy a machine of either type `A` or type `B`. For each day's operation:
 
@@ -17,13 +17,13 @@ Assume that the repairs take a negligible amount of time and that the machines a
 
 A single line comprised of `2` space-separated values denoting the respective means for `A` and `B`:
 
-```
+``` 
 0.88 1.55
 ```
 
 If you do not wish to read this information from stdin, you can hard-code it into your program.
-
-## Output Format
+ 
+## Output Format 
 
 There are two lines of output. Your answers must be rounded to a scale of 3 decimal places (i.e., `1.234` format):
 
@@ -140,7 +140,7 @@ public class Solution {
 
 ```cpp
 #include <bits/stdc++.h>
-using namespace std;
+using namespace std; 
 
 int main() {
     double meanA, meanB;

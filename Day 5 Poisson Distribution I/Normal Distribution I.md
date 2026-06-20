@@ -1,12 +1,12 @@
 # Day 5: Normal Distribution I
-
+  
 ## Objective
 
 In this challenge, we learn about normal distributions.
+  
+## Task 
 
-## Task
-
-In a certain plant, the time taken to assemble a car is a random variable, `X`, having a normal distribution with a mean of `20` hours and a standard deviation of `2` hours. What is the probability that a car can be assembled at this plant in:
+In a certain plant, the time taken to assemble a car is a random variable, `X`, having a normal distribution with a mean of `20` hours and a standard deviation of `2` hours. What is the probability that a car can be assembled at this plant in: 
 
 1. Less than `19.5` hours?
 2. Between `20` and `22` hours?
@@ -23,7 +23,7 @@ There are `3` lines of input (shown below):
 
 The first line contains `2` space-separated values denoting the respective mean and standard deviation for `X`. The second line contains the number associated with question 1. The third line contains `2` space-separated values describing the respective lower and upper range boundaries for question 2.
 
-If you do not wish to read this information from stdin, you can hard-code it into your program.
+If you do not wish to read this information from stdin, you can hard-code it into your program. 
 
 ## Output Format
 

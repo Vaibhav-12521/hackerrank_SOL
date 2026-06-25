@@ -4,7 +4,7 @@
 
 In this challenge, we practice solving problems based on the Central Limit Theorem. We recommend reviewing the Central Limit Theorem Tutorial before attempting this challenge.
 
-## Task
+## Task  
 
 The number of tickets purchased by each student for the University X vs. University Y football game follows a distribution that has a mean of `μ = 2.4` and a standard deviation of `σ = 2.0`.   
 

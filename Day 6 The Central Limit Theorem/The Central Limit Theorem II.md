@@ -1,5 +1,5 @@
 # Day 6: The Central Limit Theorem II
-  
+    
 ## Objective  
 
 In this challenge, we practice solving problems based on the Central Limit Theorem. We recommend reviewing the Central Limit Theorem Tutorial before attempting this challenge.

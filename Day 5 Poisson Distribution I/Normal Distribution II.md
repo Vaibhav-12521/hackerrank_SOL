@@ -13,7 +13,7 @@ The final grades for a Physics exam taken by a large group of students have a me
 3. Failed the test (i.e., have a `grade < 60`)?
 
 Find and print the answer to each question on a new line, rounded to a scale of 2 decimal places.
-
+ 
 ## Input Format
  
 There are `3` lines of input (shown below):

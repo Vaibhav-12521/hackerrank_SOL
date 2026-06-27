@@ -11,7 +11,7 @@ A random variable, `X`, follows Poisson distribution with mean of `2.5`. Find th
 ## Input Format
  
 The first line contains `X`'s mean. The second line contains the value we want the probability for:
-
+ 
 ```
 2.5
 5

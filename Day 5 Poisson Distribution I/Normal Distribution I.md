@@ -10,7 +10,7 @@ In a certain plant, the time taken to assemble a car is a random variable, `X`, 
 
 1. Less than `19.5` hours?
 2. Between `20` and `22` hours?
-
+ 
 ## Input Format
 
 There are `3` lines of input (shown below):

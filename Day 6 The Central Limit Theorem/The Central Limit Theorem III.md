@@ -69,7 +69,7 @@ B = 500 + 1.96 * 8 = 500 + 15.68 = 515.68
 So the middle 95% of the sample-mean distribution lies between `484.32` and `515.68`.
 
 ## Solutions
-
+ 
 ### Java
 
 ```java

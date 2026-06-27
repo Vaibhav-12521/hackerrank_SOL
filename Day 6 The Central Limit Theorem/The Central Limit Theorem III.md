@@ -45,7 +45,7 @@ This is a **Central Limit Theorem (CLT)** problem about the distribution of the 
 ```
 standard error:  SE = σ / sqrt(n) 
 ```
- 
+
 A confidence interval covering the middle `95%` extends `z` standard errors on each side of the mean:
 
 ```

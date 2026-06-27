@@ -128,7 +128,7 @@ process.stdin.on("end", function () {
 ```
  
 ### Python 3
-
+ 
 ```python
 from math import sqrt
 

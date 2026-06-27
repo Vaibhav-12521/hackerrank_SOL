@@ -170,7 +170,7 @@ int main() {
 
 ### How the Solution Works
 
-1. **Read input** — sample size `n`, mean `μ`, standard deviation `σ`, the coverage percentage (unused in the math), and the z-score.
+1. **Read input** - sample size `n`, mean `μ`, standard deviation `σ`, the coverage percentage (unused in the math), and the z-score.
 2. **Standard error** — the sample mean's spread is `SE = σ / sqrt(n)`.
 3. **Confidence interval** — extend `z` standard errors on each side of the mean: `A = μ - z * SE`, `B = μ + z * SE`.
 4. **Print** `A` and `B`, each on its own line, rounded to 2 decimal places.

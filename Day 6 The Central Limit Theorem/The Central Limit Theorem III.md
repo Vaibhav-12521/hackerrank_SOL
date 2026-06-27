@@ -126,7 +126,7 @@ process.stdin.on("end", function () {
     processData(_input);
 });
 ```
-
+ 
 ### Python 3
 
 ```python

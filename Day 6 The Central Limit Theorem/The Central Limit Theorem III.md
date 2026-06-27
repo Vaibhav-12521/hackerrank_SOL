@@ -106,7 +106,6 @@ function processData(input) {
     const n = parseFloat(lines[0]);
     const mean = parseFloat(lines[1]);
     const stdDev = parseFloat(lines[2]);
-    // lines[3] is the interval percent — not needed for the calculation
     const z = parseFloat(lines[4]);
 
     const SE = stdDev / Math.sqrt(n);
@@ -137,7 +136,7 @@ from math import sqrt
 n = float(input())
 mean = float(input())
 std_dev = float(input())
-interval_percent = float(input())  # not needed for the calculation
+interval_percent = float(input())  
 z = float(input())
 
 se = std_dev / sqrt(n)

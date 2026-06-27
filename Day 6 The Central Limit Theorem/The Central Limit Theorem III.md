@@ -43,7 +43,7 @@ Print the following two lines of output, rounded to a scale of 2 decimal places 
 This is a **Central Limit Theorem (CLT)** problem about the distribution of the **sample mean**. The CLT tells us the sample mean is approximately normal, centered at the population mean `μ`, with a spread measured by the **standard error**:  
 
 ```
-standard error:  SE = σ / sqrt(n)
+standard error:  SE = σ / sqrt(n) 
 ```
 
 A confidence interval covering the middle `95%` extends `z` standard errors on each side of the mean:

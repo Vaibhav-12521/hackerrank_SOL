@@ -112,7 +112,6 @@ function processData(input) {
 
     const A = mean - z * SE;
     const B = mean + z * SE;
-
     console.log(A.toFixed(2));
     console.log(B.toFixed(2));
 }

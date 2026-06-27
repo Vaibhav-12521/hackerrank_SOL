@@ -24,7 +24,7 @@ The first line contains the sample size. The second and third lines contain the 
 
 If you do not wish to read this information from stdin, you can hard-code it into your program.
 
-## Output Format
+## Output Format  
 
 Print the following two lines of output, rounded to a scale of 2 decimal places (i.e., `1.23` format):
 

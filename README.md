@@ -7,10 +7,10 @@ problem statement, an explanation, and the solution code.
     
 ## Progress
 
-**Solved: 14 / 27**
+**Solved: 15 / 27**
 
 ```
-[██████████████░░░░░░░░░░░░░] 52%
+[███████████████░░░░░░░░░░░░] 56%
 ```
  
 ## Problem Index
@@ -38,7 +38,7 @@ problem statement, an explanation, and the solution code.
 | 19 | 5 | Normal Distribution II | ✅ | [folder](./Day%205%20Poisson%20Distribution%20I/) |
 | 20 | 6 | The Central Limit Theorem I | ✅ | [folder](./Day%206%20The%20Central%20Limit%20Theorem/) |
 | 21 | 6 | The Central Limit Theorem II | ✅ | [folder](./Day%206%20The%20Central%20Limit%20Theorem/) |
-| 22 | 6 | The Central Limit Theorem III | ⬜ | — |
+| 22 | 6 | The Central Limit Theorem III | ✅ | [folder](./Day%206%20The%20Central%20Limit%20Theorem/) |
 | 23 | 7 | Pearson Correlation Coefficient I | ⬜ | — |
 | 24 | 7 | Spearman's Rank Correlation Coefficient | ⬜ | — |
 | 25 | 8 | Least Square Regression Line | ⬜ | — |

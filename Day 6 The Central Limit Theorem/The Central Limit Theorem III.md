@@ -20,7 +20,7 @@ There are five lines of input (shown below):
 1.96
 ```
 
-The first line contains the sample size. The second and third lines contain the respective mean (`μ`) and standard deviation (`σ`). The fourth line contains the distribution percentage we want to cover (as a decimal), and the fifth line contains the value of `z`.
+The first line contains the sample size. The second and third lines contain the respective mean (`μ`) and standard deviation (`σ`). The fourth line contains the distribution percentage we want to cover (as a decimal), and the fifth line contains the value of `z`. 
 
 If you do not wish to read this information from stdin, you can hard-code it into your program.
 

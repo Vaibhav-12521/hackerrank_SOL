@@ -7,10 +7,10 @@ problem statement, an explanation, and the solution code.
     
 ## Progress
 
-**Solved: 17 / 27**
+**Solved: 18 / 27**
 
 ```
-[█████████████████░░░░░░░░░░] 63%
+[██████████████████░░░░░░░░░] 67%
 ```
  
 ## Problem Index
@@ -41,7 +41,7 @@ problem statement, an explanation, and the solution code.
 | 22 | 6 | The Central Limit Theorem III | ✅ | [folder](./Day%206%20The%20Central%20Limit%20Theorem/) |
 | 23 | 7 | Pearson Correlation Coefficient I | ✅ | [folder](./Day%207%20Pearson%20Correlation%20Coefficient/) |
 | 24 | 7 | Spearman's Rank Correlation Coefficient | ✅ | [folder](./Day%207%20Pearson%20Correlation%20Coefficient/) |
-| 25 | 8 | Least Square Regression Line | ⬜ | — |
+| 25 | 8 | Least Square Regression Line | ✅ | [folder](./Day%208%20Least%20Square%20Regression%20Line/) |
 | 26 | 8 | Pearson Correlation Coefficient II | ⬜ | — |
 | 27 | 9 | Multiple Linear Regression | ⬜ | — |
 

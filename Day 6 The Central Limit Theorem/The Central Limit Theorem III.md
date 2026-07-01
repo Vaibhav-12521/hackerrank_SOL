@@ -10,7 +10,8 @@ You have a sample of `100` values from a population with mean `μ = 500` and wit
 
 ## Input Format
 
-There are five lines of input (shown below):
+There are five lines of input (shown below): 
+
 
 ```
 100

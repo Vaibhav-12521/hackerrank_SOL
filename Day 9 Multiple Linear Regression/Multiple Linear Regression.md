@@ -68,27 +68,64 @@ For each of the `q` feature sets, print the value of `Y` on a new line (i.e., pr
 
 ## Explanation
 
-This is a **multiple linear regression** problem. We fit the model:
+This is a **multiple linear regression** problem — the generalization of the "line of best fit" (Day 8) from one predictor to `m` predictors. Instead of fitting a line in 2D, we fit a **hyperplane** in `(m + 1)`-dimensional space.
+
+### The model
+
+We assume each output `Y` is a weighted sum of the features plus a constant offset:
 
 ```
-Y = a + b_1*f_1 + ... + b_m*f_m
+Y = a + b_1*f_1 + b_2*f_2 + ... + b_m*f_m
 ```
 
-The coefficient vector `B = [a, b_1, ..., b_m]` is found with the **least squares normal equation**:
+- `a` — the **intercept** (the predicted `Y` when every feature is `0`)
+- `b_j` — the **weight** of feature `j` (how much `Y` changes per unit increase in `f_j`, holding the others fixed)
+
+Our job is to learn the coefficient vector `B = [a, b_1, ..., b_m]` from the `n` training rows, then use it to predict `Y` for the `q` query rows.
+
+### Setting up the matrices
+
+We stack the training data into a **design matrix** `X` and an output vector `Y`. The trick is to prepend a column of `1`s to `X` — that column multiplies the intercept `a`, so the intercept can be treated as just another coefficient:
 
 ```
-B = (Xᵀ X)⁻¹ Xᵀ Y
+      | 1  f_11  f_12 ... f_1m |            | Y_1 |
+      | 1  f_21  f_22 ... f_2m |            | Y_2 |
+X  =  | .   .     .        .   |     Y  =   |  .  |
+      | 1  f_n1  f_n2 ... f_nm |            | Y_n |
+
+       (n x (m+1))                          (n x 1)
 ```
 
-where `X` is the `n x (m + 1)` matrix of feature rows with a leading column of `1`s (for the intercept `a`), and `Y` is the vector of observed outputs.
+The whole model then compresses to a single matrix equation: `Y ≈ X · B`.
 
-Once we have `B`, the prediction for a new feature set is simply:
+### The least squares normal equation
+
+Because there are usually more equations (`n` rows) than unknowns (`m + 1` coefficients), we can't solve `X · B = Y` exactly. Instead we find the `B` that **minimizes the sum of squared errors** `Σ(Y_i − predicted_i)²`. The `B` that achieves this minimum is the solution of the **normal equation**:
 
 ```
-Y = a + b_1*f_1 + ... + b_m*f_m
+(Xᵀ X) · B = Xᵀ Y      →      B = (Xᵀ X)⁻¹ Xᵀ Y
 ```
 
-Applying this to each of the `q` query rows produces the four sample outputs above.
+- `Xᵀ X` is a small `(m + 1) x (m + 1)` matrix — its size depends on the number of *features*, not the number of *rows*.
+- `Xᵀ Y` is an `(m + 1)` vector.
+
+Rather than explicitly inverting `Xᵀ X` (slower and less stable), the JavaScript/Java/C++ solutions solve the linear system `(Xᵀ X) · B = Xᵀ Y` directly with Gauss-Jordan elimination.
+
+### Worked sample
+
+For the sample input (`m = 2`, `n = 7`), fitting the model yields approximately:
+
+```
+a ≈ 0.325,   b_1 ≈ 76.31,   b_2 ≈ 118.42
+```
+
+So the learned equation is roughly `Y ≈ 0.325 + 76.31*f_1 + 118.42*f_2`. Predicting on the first query row `(0.49, 0.18)`:
+
+```
+Y = 0.325 + 76.31*0.49 + 118.42*0.18 ≈ 105.22
+```
+
+Doing the same for all four query rows produces the sample outputs `105.22`, `142.68`, `132.94`, and `129.71`.
 
 ## Solutions
 
@@ -327,3 +364,30 @@ int main() {
 5. **Print** each prediction on its own line, rounded to 2 decimal places.
 
 > **Note:** Python's NumPy makes this a one-liner via `np.linalg.inv`, but the same math is done manually in JavaScript, Java, and C++ by solving the normal equations with Gaussian elimination.
+
+## Complexity
+
+Let `k = m + 1` be the number of coefficients.
+
+| Step | Cost |
+|------|------|
+| Building `Xᵀ X` | `O(k² · n)` |
+| Building `Xᵀ Y` | `O(k · n)` |
+| Solving the `k x k` system (Gauss-Jordan) | `O(k³)` |
+| Answering all queries | `O(q · m)` |
+
+With the given constraints (`m ≤ 10`, `n ≤ 100`, `q ≤ 10`) every step is tiny, so the whole program runs effectively instantly. The key insight is that `Xᵀ X` collapses the `n`-row data into a compact `k x k` system — the solve cost depends on the number of **features**, not the number of samples.
+
+## Key Concepts
+
+- **Design matrix & the intercept trick** — prepending a column of `1`s lets the constant term `a` be handled as just another coefficient, so the entire model is one clean matrix product `X · B`.
+- **Least squares** — "best fit" means minimizing the sum of *squared* residuals. Squaring penalizes large misses more heavily and makes the objective smooth, which is exactly what yields the closed-form normal equation.
+- **Normal equation vs. gradient descent** — for a small number of features, directly solving `(XᵀX)B = XᵀY` is exact and fast. Real-world ML with thousands of features usually prefers iterative methods (gradient descent) because inverting/solving a huge matrix becomes expensive and numerically fragile.
+- **Interpreting coefficients** — each `b_j` is the marginal effect of feature `j` on `Y`, assuming the other features stay constant.
+
+## Common Pitfalls
+
+- **Forgetting the intercept column** — without the column of `1`s, the hyperplane is forced through the origin, giving wrong predictions.
+- **Explicitly inverting `Xᵀ X`** — mathematically valid, but solving the linear system directly (as the JS/Java/C++ versions do) is faster and more numerically stable.
+- **Reading input in the wrong order** — the last value on each training line is `Y`, not a feature; the query lines have only `m` features and no `Y`.
+- **Output precision** — the answer must be rounded to **2** decimal places for this challenge (unlike most earlier problems that used 3).

@@ -13,7 +13,7 @@ A few hours before the game starts, `100` eager students line up to purchase las
 ## Input Format
 
 There are `4` lines of input (shown below):
-
+ 
 ```
 250
 100

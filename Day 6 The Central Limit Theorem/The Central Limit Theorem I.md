@@ -11,7 +11,7 @@ A large elevator can transport a maximum of `9800` pounds. Suppose a load of car
 ## Input Format
  
 There are `4` lines of input (shown below):
-
+ 
 ```
 9800
 49

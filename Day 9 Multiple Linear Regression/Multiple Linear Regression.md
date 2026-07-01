@@ -116,13 +116,13 @@ Rather than explicitly inverting `Xᵀ X` (slower and less stable), the JavaScri
 For the sample input (`m = 2`, `n = 7`), fitting the model yields approximately:
 
 ```
-a ≈ 0.325,   b_1 ≈ 76.31,   b_2 ≈ 118.42
+a ≈ 52.41,   b_1 ≈ 90.69,   b_2 ≈ 46.46
 ```
 
-So the learned equation is roughly `Y ≈ 0.325 + 76.31*f_1 + 118.42*f_2`. Predicting on the first query row `(0.49, 0.18)`:
+So the learned equation is roughly `Y ≈ 52.41 + 90.69*f_1 + 46.46*f_2`. Predicting on the first query row `(0.49, 0.18)`:
 
 ```
-Y = 0.325 + 76.31*0.49 + 118.42*0.18 ≈ 105.22
+Y = 52.41 + 90.69*0.49 + 46.46*0.18 ≈ 105.22
 ```
 
 Doing the same for all four query rows produces the sample outputs `105.22`, `142.68`, `132.94`, and `129.71`.

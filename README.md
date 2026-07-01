@@ -7,10 +7,10 @@ problem statement, an explanation, and the solution code.
     
 ## Progress
 
-**Solved: 18 / 27**
+**Solved: 19 / 27**
 
 ```
-[██████████████████░░░░░░░░░] 67%
+[███████████████████░░░░░░░░] 70%
 ```
  
 ## Problem Index
@@ -43,7 +43,7 @@ problem statement, an explanation, and the solution code.
 | 24 | 7 | Spearman's Rank Correlation Coefficient | ✅ | [folder](./Day%207%20Pearson%20Correlation%20Coefficient/) |
 | 25 | 8 | Least Square Regression Line | ✅ | [folder](./Day%208%20Least%20Square%20Regression%20Line/) |
 | 26 | 8 | Pearson Correlation Coefficient II | ⬜ | — |
-| 27 | 9 | Multiple Linear Regression | ⬜ | — |
+| 27 | 9 | Multiple Linear Regression | ✅ | [folder](./Day%209%20Multiple%20Linear%20Regression/) |
 
 > ✅ = solved &nbsp;&nbsp; ⬜ = not yet attempted
 

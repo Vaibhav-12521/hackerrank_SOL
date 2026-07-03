@@ -376,10 +376,10 @@ With the given constraints (`m ≤ 10`, `n ≤ 100`, `q ≤ 10`) every step is t
 
 ## Key Concepts
 
-- **Design matrix & the intercept trick** — prepending a column of `1`s lets the constant term `a` be handled as just another coefficient, so the entire model is one clean matrix product `X · B`.
-- **Least squares** — "best fit" means minimizing the sum of *squared* residuals. Squaring penalizes large misses more heavily and makes the objective smooth, which is exactly what yields the closed-form normal equation.
-- **Normal equation vs. gradient descent** — for a small number of features, directly solving `(XᵀX)B = XᵀY` is exact and fast. Real-world ML with thousands of features usually prefers iterative methods (gradient descent) because inverting/solving a huge matrix becomes expensive and numerically fragile.
-- **Interpreting coefficients** — each `b_j` is the marginal effect of feature `j` on `Y`, assuming the other features stay constant.
+- **Design matrix & the intercept trick** - prepending a column of `1`s lets the constant term `a` be handled as just another coefficient, so the entire model is one clean matrix product `X · B`.
+- **Least squares** - "best fit" means minimizing the sum of *squared* residuals. Squaring penalizes large misses more heavily and makes the objective smooth, which is exactly what yields the closed-form normal equation.
+- **Normal equation vs. gradient descent** - for a small number of features, directly solving `(XᵀX)B = XᵀY` is exact and fast. Real-world ML with thousands of features usually prefers iterative methods (gradient descent) because inverting/solving a huge matrix becomes expensive and numerically fragile.
+- **Interpreting coefficients** - each `b_j` is the marginal effect of feature `j` on `Y`, assuming the other features stay constant.
 
 ## Common Pitfalls
 

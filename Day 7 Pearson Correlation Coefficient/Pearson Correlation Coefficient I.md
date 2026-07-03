@@ -204,8 +204,8 @@ int main() {
 
 ### How the Solution Works
 
-1. **Read input** — the size `n` and the two data sets `X` and `Y`.
-2. **Means** — compute `μ_X` and `μ_Y`.
-3. **Standard deviations** — compute the population standard deviations `σ_X` and `σ_Y` (dividing by `n`).
-4. **Covariance term** — sum `(x_i - μ_X) * (y_i - μ_Y)` over all `i`.
-5. **Pearson coefficient** — divide that sum by `n * σ_X * σ_Y`, and print rounded to 3 decimal places.
+1. **Read input** - the size `n` and the two data sets `X` and `Y`.
+2. **Means** - compute `μ_X` and `μ_Y`.
+3. **Standard deviations** - compute the population standard deviations `σ_X` and `σ_Y` (dividing by `n`).
+4. **Covariance term** - sum `(x_i - μ_X) * (y_i - μ_Y)` over all `i`.
+5. **Pearson coefficient** - divide that sum by `n * σ_X * σ_Y`, and print rounded to 3 decimal places.

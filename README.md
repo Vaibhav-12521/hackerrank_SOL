@@ -7,10 +7,10 @@ problem statement, an explanation, and the solution code.
     
 ## Progress
 
-**Solved: 19 / 27**
+**Solved: 27 / 27**
 
 ```
-[███████████████████░░░░░░░░] 70%
+[██████████████████████████] 100%
 ```
  
 ## Problem Index
@@ -18,16 +18,16 @@ problem statement, an explanation, and the solution code.
 | # | Day | Challenge | Status | Solution |
 |---|-----|-----------|:------:|----------|
 | 1 | 0 | Mean, Median, and Mode | ✅ | [folder](./Day%201%20Mean%2C%20Median%20and%20Mode/) |
-| 2 | 0 | Weighted Mean | ⬜ | — |
+| 2 | 0 | Weighted Mean | ✅ | — |
 | 3 | 1 | Quartiles | ✅ | [folder](./Day%202/) |
 | 4 | 1 | Interquartile Range | ✅ | [folder](./Day%202%20Quartiles/) |
 | 5 | 1 | Standard Deviation | ✅ | [folder](./Day%202%20Quartiles/) |
-| 6 | 2 | Basic Probability | ⬜ | — |
-| 7 | 2 | More Dice | ⬜ | — |
-| 8 | 2 | Compound Event Probability | ⬜ | — |
-| 9 | 3 | Conditional Probability | ⬜ | — |
-| 10 | 3 | Cards of the Same Suit | ⬜ | — |
-| 11 | 3 | Drawing Marbles | ⬜ | — |
+| 6 | 2 | Basic Probability | ✅ | — |
+| 7 | 2 | More Dice | ✅ | — |
+| 8 | 2 | Compound Event Probability | ✅ | — |
+| 9 | 3 | Conditional Probability | ✅ | — |
+| 10 | 3 | Cards of the Same Suit | ✅ | — |
+| 11 | 3 | Drawing Marbles | ✅ | — |
 | 12 | 4 | Binomial Distribution I | ✅ | [folder](./Day%204%20Binomial%20Distribution/) |
 | 13 | 4 | Binomial Distribution II | ✅ | [folder](./Day%204%20Binomial%20Distribution/) |
 | 14 | 4 | Geometric Distribution I | ✅ | [folder](./Day%204%20Binomial%20Distribution/) |
@@ -42,10 +42,10 @@ problem statement, an explanation, and the solution code.
 | 23 | 7 | Pearson Correlation Coefficient I | ✅ | [folder](./Day%207%20Pearson%20Correlation%20Coefficient/) |
 | 24 | 7 | Spearman's Rank Correlation Coefficient | ✅ | [folder](./Day%207%20Pearson%20Correlation%20Coefficient/) |
 | 25 | 8 | Least Square Regression Line | ✅ | [folder](./Day%208%20Least%20Square%20Regression%20Line/) |
-| 26 | 8 | Pearson Correlation Coefficient II | ⬜ | — |
+| 26 | 8 | Pearson Correlation Coefficient II | ✅ | — |
 | 27 | 9 | Multiple Linear Regression | ✅ | [folder](./Day%209%20Multiple%20Linear%20Regression/) |
 
-> ✅ = solved &nbsp;&nbsp; ⬜ = not yet attempted
+> ✅ = solved &nbsp;&nbsp; 🎉 All 27 challenges completed!
 
 ## Languages
 

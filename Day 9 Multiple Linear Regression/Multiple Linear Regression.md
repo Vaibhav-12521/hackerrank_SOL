@@ -230,7 +230,6 @@ import java.util.regex.*;
 
 public class Solution {
 
-    // Solve A * x = b by Gauss-Jordan elimination
     static double[] gaussianSolve(double[][] A, double[] b, int k) {
         double[][] M = new double[k][k + 1];
         for (int i = 0; i < k; i++) {

@@ -383,7 +383,7 @@ With the given constraints (`m ≤ 10`, `n ≤ 100`, `q ≤ 10`) every step is t
 
 ## Common Pitfalls
 
-- **Forgetting the intercept column** — without the column of `1`s, the hyperplane is forced through the origin, giving wrong predictions.
-- **Explicitly inverting `Xᵀ X`** — mathematically valid, but solving the linear system directly (as the JS/Java/C++ versions do) is faster and more numerically stable.
-- **Reading input in the wrong order** — the last value on each training line is `Y`, not a feature; the query lines have only `m` features and no `Y`.
-- **Output precision** — the answer must be rounded to **2** decimal places for this challenge (unlike most earlier problems that used 3).
+- **Forgetting the intercept column** - without the column of `1`s, the hyperplane is forced through the origin, giving wrong predictions.
+- **Explicitly inverting `Xᵀ X`** - mathematically valid, but solving the linear system directly (as the JS/Java/C++ versions do) is faster and more numerically stable.
+- **Reading input in the wrong order** - the last value on each training line is `Y`, not a feature; the query lines have only `m` features and no `Y`.
+- **Output precision** - the answer must be rounded to **2** decimal places for this challenge (unlike most earlier problems that used 3).

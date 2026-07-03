@@ -220,8 +220,8 @@ int main() {
 
 ### How the Solution Works
 
-1. **Accumulate sums** — compute `sum(x)`, `sum(y)`, `sum(x*y)`, and `sum(x^2)` over the five data points.
-2. **Slope** — `b = (n * sum(x*y) - sum(x) * sum(y)) / (n * sum(x^2) - (sum(x))^2)`.
-3. **Intercept** — `a = ȳ - b * x̄`.
-4. **Predict** — evaluate the best-fit line `y = a + b * x` at `x = 80`.
+1. **Accumulate sums** - compute `sum(x)`, `sum(y)`, `sum(x*y)`, and `sum(x^2)` over the five data points.
+2. **Slope** - `b = (n * sum(x*y) - sum(x) * sum(y)) / (n * sum(x^2) - (sum(x))^2)`.
+3. **Intercept** - `a = ȳ - b * x̄`.
+4. **Predict** - evaluate the best-fit line `y = a + b * x` at `x = 80`.
 5. **Print** the prediction rounded to 3 decimal places.

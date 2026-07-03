@@ -267,7 +267,6 @@ public class Solution {
             Y[i] = sc.nextDouble();
         }
 
-        // Build normal equations: A = X^T X (k x k), b = X^T Y (k)
         double[][] A = new double[k][k];
         double[] b = new double[k];
         for (int r = 0; r < k; r++) {

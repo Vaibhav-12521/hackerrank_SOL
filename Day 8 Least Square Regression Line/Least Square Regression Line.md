@@ -2,7 +2,7 @@
 
 ## Objective
 
-In this challenge, we practice using linear regression techniques.
+In this challenge, we practice using linear regression techniques. 
 
 ## Task
 

@@ -295,7 +295,6 @@ public class Solution {
 #include <bits/stdc++.h>
 using namespace std;
 
-// Solve A * x = b by Gauss-Jordan elimination
 vector<double> gaussianSolve(vector<vector<double>> M, int k) {
     for (int col = 0; col < k; col++) {
         int piv = col;
@@ -327,7 +326,6 @@ int main() {
         cin >> Y[i];
     }
 
-    // Augmented normal equations [ X^T X | X^T Y ]
     vector<vector<double>> M(k, vector<double>(k + 1, 0));
     for (int r = 0; r < k; r++) {
         for (int c = 0; c < k; c++)
@@ -355,10 +353,10 @@ int main() {
 
 ### How the Solution Works
 
-1. **Read the training data** — build the design matrix `X` (each row is `[1, f_1, ..., f_m]`, the leading `1` handling the intercept `a`) and the output vector `Y`.
-2. **Form the normal equations** — compute `A = Xᵀ X` (a `(m+1) x (m+1)` matrix) and `b = Xᵀ Y`.
-3. **Solve for the coefficients** — solve `A · B = b`. NumPy does this with a matrix inverse; the other languages use Gauss-Jordan elimination (no external libraries needed).
-4. **Predict** — for each query feature set, compute `Y = a + b_1*f_1 + ... + b_m*f_m`.
+1. **Read the training data** - build the design matrix `X` (each row is `[1, f_1, ..., f_m]`, the leading `1` handling the intercept `a`) and the output vector `Y`.
+2. **Form the normal equations** - compute `A = Xᵀ X` (a `(m+1) x (m+1)` matrix) and `b = Xᵀ Y`.
+3. **Solve for the coefficients** - solve `A · B = b`. NumPy does this with a matrix inverse; the other languages use Gauss-Jordan elimination (no external libraries needed).
+4. **Predict** - for each query feature set, compute `Y = a + b_1*f_1 + ... + b_m*f_m`.
 5. **Print** each prediction on its own line, rounded to 2 decimal places.
 
 > **Note:** Python's NumPy makes this a one-liner via `np.linalg.inv`, but the same math is done manually in JavaScript, Java, and C++ by solving the normal equations with Gaussian elimination.

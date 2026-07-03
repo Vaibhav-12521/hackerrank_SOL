@@ -195,10 +195,10 @@ int main() {
 
 ### How the Solution Works
 
-1. **Read input** — the mean and standard deviation, the single boundary for question 1, and the two boundaries for question 2.
-2. **CDF** — the normal CDF, `P(X < x) = (1/2) * (1 + erf((x - mu) / (sigma * sqrt(2))))`, gives the probability of being below a value.
-3. **Question 1** — directly evaluate the CDF at `19.5`.
-4. **Question 2** — a range probability is `CDF(high) - CDF(low)`.
+1. **Read input** - The mean and standard deviation, the single boundary for question 1, and the two boundaries for question 2.
+2. **CDF** - The normal CDF, `P(X < x) = (1/2) * (1 + erf((x - mu) / (sigma * sqrt(2))))`, gives the probability of being below a value.
+3. **Question 1** - Directly evaluate the CDF at `19.5`.
+4. **Question 2** - A range probability is `CDF(high) - CDF(low)`.
 5. **Print** each result rounded to 3 decimal places.
 
 > **Note:** JavaScript has no built-in error function, so the solution implements `erf` with a numerical approximation. Python (`math.erf`) and C++ (`erf`) provide it natively, which keeps those versions much shorter.

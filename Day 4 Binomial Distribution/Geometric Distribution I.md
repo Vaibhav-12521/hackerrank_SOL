@@ -136,5 +136,5 @@ int main() {
 ### How the Solution Works
 
 1. **Read input** - the defect probability as a fraction (`numerator / denominator`) and the trial number `n`.
-2. **Geometric formula** — the probability the first success occurs on trial `n` is `(1 - p)^(n - 1) * p`: the first `n - 1` trials fail, and the `n`-th succeeds.
+2. **Geometric formula** - the probability the first success occurs on trial `n` is `(1 - p)^(n - 1) * p`: the first `n - 1` trials fail, and the `n`-th succeeds.
 3. **Print** the result rounded to 3 decimal places.

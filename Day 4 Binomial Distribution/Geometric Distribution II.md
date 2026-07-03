@@ -149,6 +149,6 @@ int main() {
 
 ### How the Solution Works
 
-1. **Read input** — the defect probability as a fraction (`numerator / denominator`) and the number of inspections `n`.
-2. **Cumulative geometric** — "first defect within the first `n` inspections" is the complement of "no defect at all in `n` trials": `P(X <= n) = 1 - (1 - p)^n`.
+1. **Read input** - The defect probability as a fraction (`numerator / denominator`) and the number of inspections `n`.
+2. **Cumulative geometric** - "first defect within the first `n` inspections" is the complement of "no defect at all in `n` trials": `P(X <= n) = 1 - (1 - p)^n`.
 3. **Print** the result rounded to 3 decimal places.

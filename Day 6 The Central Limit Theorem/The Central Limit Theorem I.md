@@ -180,10 +180,10 @@ int main() {
 
 ### How the Solution Works
 
-1. **Read input** — the weight limit, number of boxes `n`, the per-box mean `μ`, and standard deviation `σ`.
-2. **Distribution of the sum** — by the CLT, the total weight is approximately normal with mean `n * μ` and standard deviation `sqrt(n) * σ`.
-3. **Standardize** — convert the elevator limit into a z-score: `z = (limit - μ_sum) / σ_sum`.
-4. **Normal CDF** — `P(X <= limit) = (1/2) * (1 + erf(z / sqrt(2)))`.
+1. **Read input** - the weight limit, number of boxes `n`, the per-box mean `μ`, and standard deviation `σ`.
+2. **Distribution of the sum** - By the CLT, the total weight is approximately normal with mean `n * μ` and standard deviation `sqrt(n) * σ`.
+3. **Standardize** - Convert the elevator limit into a z-score: `z = (limit - μ_sum) / σ_sum`.
+4. **Normal CDF** - `P(X <= limit) = (1/2) * (1 + erf(z / sqrt(2)))`.
 5. **Print** the probability rounded to 4 decimal places.
 
 > **Note:** JavaScript and Java have no built-in error function, so the solution implements `erf` with a numerical approximation. Python (`math.erf`) and C++ (`erf`) provide it natively.

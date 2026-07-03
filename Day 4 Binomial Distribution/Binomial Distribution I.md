@@ -173,7 +173,7 @@ int main() {
 
 ### How the Solution Works
 
-1. **Probability of a boy** — convert the `1.09 : 1` ratio to `p = 1.09 / 2.09`, and `q = 1 - p` for a girl.
-2. **Binomial formula** — for each outcome count `x`, the probability is `C(n, x) * p^x * q^(n-x)`.
-3. **At least 3 boys** — sum the binomial probabilities for `x = 3, 4, 5, 6`.
+1. **Probability of a boy** - Convert the `1.09 : 1` ratio to `p = 1.09 / 2.09`, and `q = 1 - p` for a girl.
+2. **Binomial formula** - For each outcome count `x`, the probability is `C(n, x) * p^x * q^(n-x)`.
+3. **At least 3 boys** - Sum the binomial probabilities for `x = 3, 4, 5, 6`.
 4. **Print** the total rounded to 3 decimal places.

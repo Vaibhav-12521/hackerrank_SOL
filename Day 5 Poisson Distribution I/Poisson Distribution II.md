@@ -160,7 +160,7 @@ int main() {
 
 ### How the Solution Works
 
-1. **Read input** — the two Poisson means `λ_A` and `λ_B`.
-2. **Second moment** — for a Poisson variable, `E[X^2] = λ + λ^2` (since variance equals the mean).
-3. **Expected cost** — apply linearity of expectation: `E[C] = constant + 40 * E[X^2]`.
+1. **Read input** - The two Poisson means `λ_A` and `λ_B`.
+2. **Second moment** - For a Poisson variable, `E[X^2] = λ + λ^2` (since variance equals the mean).
+3. **Expected cost** - Apply linearity of expectation: `E[C] = constant + 40 * E[X^2]`.
 4. **Print** each expected cost on its own line, rounded to 3 decimal places.

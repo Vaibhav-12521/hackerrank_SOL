@@ -149,6 +149,6 @@ int main() {
 
 ### How the Solution Works
 
-1. **Read input** — the mean `λ` (lambda) and the target event count `k`.
-2. **Poisson formula** — the probability of exactly `k` events is `(λ^k * e^(-λ)) / k!`.
+1. **Read input** - the mean `λ` (lambda) and the target event count `k`.
+2. **Poisson formula** - the probability of exactly `k` events is `(λ^k * e^(-λ)) / k!`.
 3. **Print** the result rounded to 3 decimal places.

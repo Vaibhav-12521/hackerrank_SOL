@@ -172,7 +172,7 @@ int main() {
 
 1. **Read input** - sample size `n`, mean `μ`, standard deviation `σ`, the coverage percentage (unused in the math), and the z-score.
 2. **Standard error** - the sample mean's spread is `SE = σ / sqrt(n)`.
-3. **Confidence interval** — extend `z` standard errors on each side of the mean: `A = μ - z * SE`, `B = μ + z * SE`.
+3. **Confidence interval** - extend `z` standard errors on each side of the mean: `A = μ - z * SE`, `B = μ + z * SE`.
 4. **Print** `A` and `B`, each on its own line, rounded to 2 decimal places.
 
 > **Note:** The interval percentage (`0.95`) is given as input, but the actual width comes from the supplied z-score (`1.96`), so the percentage itself isn't used in the calculation. 

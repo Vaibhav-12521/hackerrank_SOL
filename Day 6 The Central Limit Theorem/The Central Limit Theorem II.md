@@ -196,9 +196,9 @@ int main() {
 
 ### How the Solution Works
 
-1. **Read input** — the ticket limit, number of students `n`, the per-student mean `μ`, and standard deviation `σ`.
-2. **Distribution of the sum** — by the CLT, total ticket demand is approximately normal with mean `n * μ` and standard deviation `sqrt(n) * σ`.
-3. **Normal CDF** — `P(X <= limit) = (1/2) * (1 + erf((limit - μ_sum) / (σ_sum * sqrt(2))))`.
+1. **Read input** - The ticket limit, number of students `n`, the per-student mean `μ`, and standard deviation `σ`.
+2. **Distribution of the sum** - By the CLT, total ticket demand is approximately normal with mean `n * μ` and standard deviation `sqrt(n) * σ`.
+3. **Normal CDF** - `P(X <= limit) = (1/2) * (1 + erf((limit - μ_sum) / (σ_sum * sqrt(2))))`.
 4. **Print** the probability rounded to 4 decimal places.
 
 > **Note:** JavaScript and Java have no built-in error function, so the solution implements `erf` with a numerical approximation. Python (`math.erf`) and C++ (`erf`) provide it natively.

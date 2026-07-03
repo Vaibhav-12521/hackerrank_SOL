@@ -200,8 +200,8 @@ int main() {
 
 ### How the Solution Works
 
-1. **Read input** — the defect percentage becomes a probability `p = pct / 100`, with batch size `n`.
-2. **Binomial helper** — `binomial(n, k, p) = C(n, k) * p^k * (1 - p)^(n - k)` gives the probability of exactly `k` rejects.
-3. **No more than 2 rejects** — sum the binomial probabilities for `x = 0, 1, 2`.
-4. **At least 2 rejects** — sum the binomial probabilities for `x = 2, 3, ..., n`.
+1. **Read input** - The defect percentage becomes a probability `p = pct / 100`, with batch size `n`.
+2. **Binomial helper** - `binomial(n, k, p) = C(n, k) * p^k * (1 - p)^(n - k)` gives the probability of exactly `k` rejects.
+3. **No more than 2 rejects** - Sum the binomial probabilities for `x = 0, 1, 2`.
+4. **At least 2 rejects** - Sum the binomial probabilities for `x = 2, 3, ..., n`.
 5. **Print** each result on its own line, rounded to 3 decimal places.

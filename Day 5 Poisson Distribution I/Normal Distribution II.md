@@ -54,19 +54,19 @@ P(grade < x) = (1/2) * (1 + erf((x - mu) / (sigma * sqrt(2))))
 
 We convert each probability to a percentage by multiplying by `100`.
 
-**Question 1 — `grade > 80`** is the complement of the CDF:
+**Question 1 - `grade > 80`** is the complement of the CDF:
 
 ```
 P(grade > 80) = 1 - CDF(80) ≈ 1 - 0.8413 ≈ 0.1587  →  15.87%
 ```
 
-**Question 2 — `grade >= 60`** is also the complement of the CDF:
+**Question 2 - `grade >= 60`** is also the complement of the CDF:
 
 ```
 P(grade >= 60) = 1 - CDF(60) ≈ 1 - 0.1587 ≈ 0.8413  →  84.13%
 ```
 
-**Question 3 — `grade < 60`** is the CDF directly:
+**Question 3 - `grade < 60`** is the CDF directly:
 
 ```
 P(grade < 60) = CDF(60) ≈ 0.1587  →  15.87%
@@ -205,10 +205,10 @@ int main() {
 
 ### How the Solution Works
 
-1. **Read input** — the mean and standard deviation, the high-score threshold (question 1), and the pass/fail threshold (questions 2 and 3).
-2. **CDF** — the normal CDF gives `P(grade < x)`.
-3. **Greater than** — `P(grade > x) = 1 - CDF(x)`, used for questions 1 and 2.
-4. **Less than** — `P(grade < x) = CDF(x)`, used for question 3.
+1. **Read input** - The mean and standard deviation, the high-score threshold (question 1), and the pass/fail threshold (questions 2 and 3).
+2. **CDF** - The normal CDF gives `P(grade < x)`.
+3. **Greater than** - `P(grade > x) = 1 - CDF(x)`, used for questions 1 and 2.
+4. **Less than** - `P(grade < x) = CDF(x)`, used for question 3.
 5. **Print** each probability as a percentage (`× 100`), rounded to 2 decimal places.
 
 > **Note:** JavaScript and Java have no built-in error function, so the solution implements `erf` with a numerical approximation. Python (`math.erf`) and C++ (`erf`) provide it natively.

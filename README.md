@@ -1,4 +1,4 @@
-# HackerRank — 10 Days of Statistics
+# HackerRank - 10 Days of Statistics
      
 My solutions to the [**10 Days of Statistics**](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics) track on HackerRank.  
    
@@ -22,7 +22,7 @@ problem statement, an explanation, and the solution code.
 | 3 | 1 | Quartiles | ✅ | [folder](./Day%202/) |
 | 4 | 1 | Interquartile Range | ✅ | [folder](./Day%202%20Quartiles/) |
 | 5 | 1 | Standard Deviation | ✅ | [folder](./Day%202%20Quartiles/) |
-| 6 | 2 | Basic Probability | ⬜ | — |
+| 6 | 2 | Basic Probability | ⬜ | **Soon** |
 | 7 | 2 | More Dice | ⬜ | — |
 | 8 | 2 | Compound Event Probability | ⬜ | — |
 | 9 | 3 | Conditional Probability | ⬜ | — |

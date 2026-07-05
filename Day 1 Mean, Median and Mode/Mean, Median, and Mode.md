@@ -283,8 +283,8 @@ int main() {
 
 ### How the Solution Works
 
-1. **Parse input** — read `N` from the first line and the array of integers from the second line.
-2. **Mean** — sum every element with `reduce`, divide by `N`, and format to 1 decimal place with `toFixed(1)`.
-3. **Median** — sort a copy of the array ascending. For an even `N`, average the two middle elements (`sorted[n/2 - 1]` and `sorted[n/2]`); for an odd `N`, take the single middle element. Format to 1 decimal place.
-4. **Mode** — count occurrences in a `freq` map. Track the value with the highest frequency, and on a tie keep the numerically smallest one (`num < mode`). Print the mode as an integer.
+1. **Parse input** - Read `N` from the first line and the array of integers from the second line.
+2. **Mean** - Sum every element with `reduce`, divide by `N`, and format to 1 decimal place with `toFixed(1)`.
+3. **Median** - Sort a copy of the array ascending. For an even `N`, average the two middle elements (`sorted[n/2 - 1]` and `sorted[n/2]`); for an odd `N`, take the single middle element. Format to 1 decimal place.
+4. **Mode** - Count occurrences in a `freq` map. Track the value with the highest frequency, and on a tie keep the numerically smallest one (`num < mode`). Print the mode as an integer.
 ```

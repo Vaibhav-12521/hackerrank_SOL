@@ -247,7 +247,7 @@ int main() {
 ### How the Solution Works
 
 1. **Sort** the array in non-decreasing order.
-2. **Q2 (median)** — the median of the whole array. For an odd count, it's the middle element; for an even count, the average of the two middle elements.
-3. **Split into halves** — the lower half is everything before the middle. For an odd count, exclude the middle element from both halves; for an even count, split exactly down the middle.
-4. **Q1 and Q3** — `Q1` is the median of the lower half and `Q3` is the median of the upper half.
+2. **Q2 (median)** - the median of the whole array. For an odd count, it's the middle element; for an even count, the average of the two middle elements.
+3. **Split into halves** - the lower half is everything before the middle. For an odd count, exclude the middle element from both halves; for an even count, split exactly down the middle.
+4. **Q1 and Q3** - `Q1` is the median of the lower half and `Q3` is the median of the upper half.
 5. **Print** `Q1`, `Q2`, and `Q3`, each on its own line.

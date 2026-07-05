@@ -286,8 +286,8 @@ int main() {
 
 ### How the Solution Works
 
-1. **Expand the data** — build the full data set `S` by repeating each `values[i]` exactly `freqs[i]` times.
+1. **Expand the data** - Build the full data set `S` by repeating each `values[i]` exactly `freqs[i]` times.
 2. **Sort** `S` in non-decreasing order.
-3. **Split into halves** — for an even count, split exactly down the middle; for an odd count, exclude the median element from both halves.
-4. **Q1 and Q3** — `Q1` is the median of the lower half and `Q3` is the median of the upper half. Use floating-point division when averaging the two middle elements.
-5. **Interquartile range** — print `Q3 - Q1`, rounded to 1 decimal place.
+3. **Split into halves** - For an even count, split exactly down the middle; for an odd count, exclude the median element from both halves.
+4. **Q1 and Q3** - `Q1` is the median of the lower half and `Q3` is the median of the upper half. Use floating-point division when averaging the two middle elements.
+5. **Interquartile range** - print `Q3 - Q1`, rounded to 1 decimal place.

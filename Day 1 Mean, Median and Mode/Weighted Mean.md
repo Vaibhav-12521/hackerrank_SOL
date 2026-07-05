@@ -184,7 +184,7 @@ int main() {
 
 ### How the Solution Works
 
-1. **Parse input** — read `N` from the first line, the values array `X` from the second line, and the weights array `W` from the third line.
-2. **Accumulate** — loop over each index `i`, adding `X[i] * W[i]` to a running `weightedSum` and `W[i]` to a running `weightSum`.
-3. **Divide** — the weighted mean is `weightedSum / weightSum`.
-4. **Format** — print the result rounded to 1 decimal place (`toFixed(1)` / `round(..., 1)` / `%.1f`).
+1. **Parse input** - Read `N` from the first line, the values array `X` from the second line, and the weights array `W` from the third line.
+2. **Accumulate** - Loop over each index `i`, adding `X[i] * W[i]` to a running `weightedSum` and `W[i]` to a running `weightSum`.
+3. **Divide** - The weighted mean is `weightedSum / weightSum`.
+4. **Format** - Print the result rounded to 1 decimal place (`toFixed(1)` / `round(..., 1)` / `%.1f`).

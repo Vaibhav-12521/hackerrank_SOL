@@ -40,12 +40,12 @@ B(x; n, p) = C(n, x) * p^x * (1 - p)^(n - x)
 
 where:
 
-- `n = 6` — the number of children
-- `p` — the probability of a boy
-- `q = 1 - p` — the probability of a girl
-- `C(n, x)` — the number of combinations of `n` items taken `x` at a time
+- `n = 6` - the number of children
+- `p` - the probability of a boy
+- `q = 1 - p` - the probability of a girl
+- `C(n, x)` - the number of combinations of `n` items taken `x` at a time
 
-**Step 1 — find `p`.** The ratio of boys to girls is `1.09 : 1`, so out of every `2.09` births, `1.09` are boys:
+**Step 1 - find `p`.** The ratio of boys to girls is `1.09 : 1`, so out of every `2.09` births, `1.09` are boys:
 
 ```
 p = 1.09 / (1.09 + 1) = 1.09 / 2.09 ≈ 0.5215

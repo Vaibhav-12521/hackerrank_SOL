@@ -45,13 +45,13 @@ This is a **binomial distribution** problem. Each piston is an independent trial
 B(x; n, p) = C(n, x) * p^x * (1 - p)^(n - x)
 ```
 
-**Question 1 — no more than 2 rejects** means `x = 0, 1, 2`:
+**Question 1 - no more than 2 rejects** means `x = 0, 1, 2`:
 
 ```
 P(X <= 2) = sum_{x=0}^{2} C(10, x) * p^x * (1 - p)^(10 - x) ≈ 0.891
 ```
 
-**Question 2 — at least 2 rejects** means `x = 2, 3, ..., 10`:
+**Question 2 - at least 2 rejects** means `x = 2, 3, ..., 10`:
 
 ```
 P(X >= 2) = sum_{x=2}^{10} C(10, x) * p^x * (1 - p)^(10 - x) ≈ 0.342

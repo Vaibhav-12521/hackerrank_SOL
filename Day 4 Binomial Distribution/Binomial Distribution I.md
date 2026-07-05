@@ -52,7 +52,7 @@ p = 1.09 / (1.09 + 1) = 1.09 / 2.09 ≈ 0.5215
 q = 1 - p ≈ 0.4785
 ```
 
-**Step 2 — "at least 3 boys"** means `x = 3, 4, 5, 6`. Sum the binomial probabilities for each:
+**Step 2 - "at least 3 boys"** means `x = 3, 4, 5, 6`. Sum the binomial probabilities for each:
 
 ```
 P(X >= 3) = sum_{x=3}^{6} C(6, x) * p^x * q^(6-x) ≈ 0.696

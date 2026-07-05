@@ -220,7 +220,7 @@ int main() {
 
 ### How the Solution Works
 
-1. **Mean** — sum all elements and divide by `n`.
-2. **Variance** — for each element, subtract the mean and square the result; sum these squared distances and divide by `n` (population variance).
-3. **Standard deviation** — take the square root of the variance.
+1. **Mean** - Sum all elements and divide by `n`.
+2. **Variance** - For each element, subtract the mean and square the result; sum these squared distances and divide by `n` (population variance).
+3. **Standard deviation** - Take the square root of the variance.
 4. **Print** the result rounded to 1 decimal place.

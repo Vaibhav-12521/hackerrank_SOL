@@ -4,7 +4,7 @@ My solutions to the [**10 Days of Statistics**](https://www.hackerrank.com/domai
    
 Each solved problem lives in its own folder with a `README.md` containing the 
 problem statement, an explanation, and the solution code.  
-    
+     
 ## Progress
  
 **Solved: 27 / 27** 
